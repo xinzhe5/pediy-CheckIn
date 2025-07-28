@@ -7,7 +7,7 @@ on:
       - 'README.md'
       - 'imgs/**'
   schedule:
-    - cron: 00 01 * * *
+    - cron: 00 00 * * *
 jobs:
   build:
     runs-on: ubuntu-latest
